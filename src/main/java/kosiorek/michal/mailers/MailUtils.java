@@ -18,12 +18,12 @@ import static j2html.TagCreator.*;
 
 public class MailUtils {
 
-    private static final String EMAIL = new String("mailer123@onet.pl");
-    private static final String EMAIL2 = new String("mailermk123@gmail.com");
+    private static final String EMAIL = new String("");
+    private static final String EMAIL2 = new String("");
     private static final String SMTP = new String("smtp.gmail.com");
     private static final int PORT = 465;
 
-    private static final String PASS = new String("Mailer123!");
+    private static final String PASS = new String("");
 
     private static MailUtils singleInstance = null;
 
