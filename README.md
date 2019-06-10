@@ -5,8 +5,11 @@ This project was created with IntelliJ IDEA IDE. And can be run via this IDE.
 A simple console project with MySQL database with database repository based on JDBI.
 
 Before running the application the MySQL database needs to be installed and configured.
+
 Database name: jdbi_db
+
 User and password: root
+
 Alternatively the connection string in class DbJdbiConnection can be changed.
 
 The project idea is to simulate the ticket purchase at a cinema with data management based on SQL database. Project functionality include: basic CRUD operations on customers and movies including sorting results of query. Simulation of purchase of ticket under assumption that we have unlimited projection rooms and unlimited tickets available for every half an hour. Possibility of creating loyalty card for customer who bought more than 5 tickets. The ticket is being send on customer's email. Feature allowing customer to have his purchase history send over email with filtering of results.
